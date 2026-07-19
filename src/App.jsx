@@ -1,28 +1,38 @@
-import './App.css';
+import "./App.css";
 
-import Header from "./components/Header";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Footer from "./components/Footer";
+import { Routes, Route } from "react-router-dom";
+
+import NavBar from "./components/NavBar";
+
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 
 function App() {
-  const skills = [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React",
-    "Node.js",
-  ];
-
   return (
-    <div>
-      <Header name="Nandani Dodiya" />
+    <div className="app">
 
-      <About />
+      <NavBar />
 
-      <Skills skillList={skills} />
+      <Routes>
 
-      <Footer email="nandani@example.com" />
+        <Route
+          path="/"
+          element={<Home />}
+        />
+
+        <Route
+          path="/projects"
+          element={<Projects />}
+        />
+
+        <Route
+          path="/contact"
+          element={<Contact />}
+        />
+
+      </Routes>
+
     </div>
   );
 }
