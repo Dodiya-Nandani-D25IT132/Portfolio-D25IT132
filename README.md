@@ -1,8 +1,8 @@
 # Student Portfolio (React)
 
-A modern portfolio website developed using **React.js** as part of the **Advanced Web Development Framework (AWDF)** practical course at CHARUSAT.
+A portfolio website built using **React.js** as part of the **Advanced Web Development Framework (AWDF)** practical course at **CHARUSAT**.
 
-This project is continuously enhanced in every practical, with each lab introducing new React concepts and features.
+This repository is continuously updated throughout the semester. Each practical introduces new React concepts while extending the same application.
 
 ---
 
@@ -14,22 +14,23 @@ This project is continuously enhanced in every practical, with each lab introduc
 - HTML5
 - CSS3
 - React Router DOM
+- Fetch API
 - Git & GitHub
 
 ---
 
-## 📚 Practical Progress
+# 📚 Practical Progress
 
-### ✅ Practical 1 – Components & Props
+## ✅ Practical 1 – Components & Props
 
-**Topics Covered**
+### Topics Covered
 - Functional Components
 - Props
 - Component Reusability
 - Portfolio UI
-- Dark Theme Styling
+- Dark Theme Design
 
-**Components Created**
+### Components Created
 - Header
 - About
 - Skills
@@ -37,9 +38,9 @@ This project is continuously enhanced in every practical, with each lab introduc
 
 ---
 
-### ✅ Practical 2 – React Router & useState
+## ✅ Practical 2 – React Router & useState
 
-**Topics Covered**
+### Topics Covered
 - BrowserRouter
 - Routes
 - Route
@@ -48,25 +49,56 @@ This project is continuously enhanced in every practical, with each lab introduc
 - Controlled Components
 - Conditional Rendering
 
-**New Components**
+### New Components
 - NavBar
 
-**Pages**
+### Pages
 - Home
 - Projects
 - Contact
 
-**Features**
+### Features
 - Multi-page navigation
-- Dark themed responsive UI
-- Live message input using useState
+- Dark themed interface
+- Contact form using useState
 - Show/Hide Help functionality
-- Improved navigation bar
-- Modern styling
+- Responsive navigation
 
 ---
 
-## 📂 Project Structure
+## ✅ Practical 3 – API Integration & Data Rendering
+
+### Topics Covered
+- REST API Integration
+- Fetch API
+- useEffect Hook
+- Asynchronous Data Fetching
+- Loading State
+- Error Handling
+- Conditional Rendering
+
+### New Components
+- Spinner
+- ErrorMessage
+
+### Features
+- Fetch GitHub repositories dynamically
+- Loading indicator while fetching data
+- Error message for failed requests
+- Dynamic rendering of repository data
+- Clean dark-themed interface
+
+### API Used
+
+GitHub REST API
+
+```
+https://api.github.com/users/<username>/repos
+```
+
+---
+
+# 📂 Project Structure
 
 ```text
 student-portfolio/
@@ -77,7 +109,9 @@ student-portfolio/
 │   │   ├── Footer.jsx
 │   │   ├── Header.jsx
 │   │   ├── NavBar.jsx
-│   │   └── Skills.jsx
+│   │   ├── Skills.jsx
+│   │   ├── Spinner.jsx
+│   │   └── ErrorMessage.jsx
 │   │
 │   ├── pages/
 │   │   ├── Home.jsx
@@ -86,27 +120,28 @@ student-portfolio/
 │   │
 │   ├── App.jsx
 │   ├── App.css
-│   ├── main.jsx
-│   └── index.css
+│   ├── index.css
+│   └── main.jsx
 │
 ├── package.json
+├── package-lock.json
 └── README.md
 ```
 
 ---
 
-## ▶️ Run the Project
+# ▶️ Installation
 
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Dodiya-Nandani-D25IT132/Portfolio-D25IT132.git
 ```
 
-Move into the project folder:
+Move into the project directory:
 
 ```bash
-cd student-portfolio
+cd Portfolio-D25IT132
 ```
 
 Install dependencies:
@@ -115,7 +150,7 @@ Install dependencies:
 npm install
 ```
 
-Start the development server:
+Run the application:
 
 ```bash
 npm run dev
@@ -123,20 +158,40 @@ npm run dev
 
 ---
 
-## 🎯 Learning Outcomes
+# 🎯 Learning Outcomes
 
-- Build reusable React components
-- Pass data using Props
-- Implement React Router
-- Create multi-page applications
-- Manage state using useState
-- Build controlled form inputs
-- Apply modern CSS styling
-- Use Git and GitHub for version control
+After completing these practicals, the following concepts have been implemented:
+
+- React Functional Components
+- Props
+- Component Reusability
+- React Router
+- Navigation between Pages
+- useState Hook
+- useEffect Hook
+- REST API Integration
+- Fetch API
+- Loading & Error States
+- Conditional Rendering
+- Modern CSS Styling
+- Git & GitHub Version Control
 
 ---
 
-## 👩‍💻 Author
+# 📌 Future Enhancements
+
+The following features will be added in upcoming practicals:
+
+- Search GitHub repositories
+- Retry API request
+- Display repository star count
+- Additional React Hooks
+- Responsive improvements
+- Portfolio enhancements
+
+---
+
+# 👩‍💻 Author
 
 **Nandani K. Dodiya**
 
@@ -145,3 +200,12 @@ B.Tech Information Technology
 CHARUSAT
 
 GitHub: https://github.com/Dodiya-Nandani-D25IT132
+
+---
+
+## ⭐ Repository Status
+
+- ✅ Practical 1 Completed
+- ✅ Practical 2 Completed
+- ✅ Practical 3 Completed
+- 🚧 More practicals will be added as the course progresses.
