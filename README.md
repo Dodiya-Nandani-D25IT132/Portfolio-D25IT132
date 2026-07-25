@@ -1,8 +1,8 @@
 # Student Portfolio (React)
 
-A portfolio website built using **React.js** as part of the **Advanced Web Development Framework (AWDF)** practical course at **CHARUSAT**.
+A modern portfolio website built using **React.js** and **Vite** as part of the **Advanced Web Development Framework (AWDF)** practical course at **CHARUSAT**.
 
-This repository is continuously updated throughout the semester. Each practical introduces new React concepts while extending the same application.
+This repository is updated throughout the semester. Each practical extends the same portfolio application by introducing new React concepts and features.
 
 ---
 
@@ -27,8 +27,8 @@ This repository is continuously updated throughout the semester. Each practical 
 - Functional Components
 - Props
 - Component Reusability
-- Portfolio UI
-- Dark Theme Design
+- Portfolio Layout
+- Dark Theme Styling
 
 ### Components Created
 - Header
@@ -49,7 +49,7 @@ This repository is continuously updated throughout the semester. Each practical 
 - Controlled Components
 - Conditional Rendering
 
-### New Components
+### Components Added
 - NavBar
 
 ### Pages
@@ -59,10 +59,10 @@ This repository is continuously updated throughout the semester. Each practical 
 
 ### Features
 - Multi-page navigation
-- Dark themed interface
+- Dark themed responsive UI
 - Contact form using useState
 - Show/Hide Help functionality
-- Responsive navigation
+- Improved navigation bar
 
 ---
 
@@ -77,23 +77,21 @@ This repository is continuously updated throughout the semester. Each practical 
 - Error Handling
 - Conditional Rendering
 
-### New Components
+### Components Added
 - Spinner
 - ErrorMessage
 
 ### Features
 - Fetch GitHub repositories dynamically
-- Loading indicator while fetching data
-- Error message for failed requests
+- Loading indicator while data is fetched
+- Error handling for failed requests
 - Dynamic rendering of repository data
 - Clean dark-themed interface
 
-### API Used
+### GitHub API Used
 
-GitHub REST API
-
-```
-https://api.github.com/users/<username>/repos
+```text
+https://api.github.com/users/Dodiya-Nandani-D25IT132/repos
 ```
 
 ---
@@ -105,11 +103,11 @@ student-portfolio/
 │
 ├── src/
 │   ├── components/
-│   │   ├── About.jsx
-│   │   ├── Footer.jsx
 │   │   ├── Header.jsx
-│   │   ├── NavBar.jsx
+│   │   ├── About.jsx
 │   │   ├── Skills.jsx
+│   │   ├── Footer.jsx
+│   │   ├── NavBar.jsx
 │   │   ├── Spinner.jsx
 │   │   └── ErrorMessage.jsx
 │   │
@@ -150,7 +148,7 @@ Install dependencies:
 npm install
 ```
 
-Run the application:
+Start the development server:
 
 ```bash
 npm run dev
@@ -160,13 +158,15 @@ npm run dev
 
 # 🎯 Learning Outcomes
 
-After completing these practicals, the following concepts have been implemented:
+After completing these practicals, the following React concepts have been implemented:
 
-- React Functional Components
+- Functional Components
 - Props
 - Component Reusability
 - React Router
-- Navigation between Pages
+- BrowserRouter
+- Routes and Route
+- Link Navigation
 - useState Hook
 - useEffect Hook
 - REST API Integration
@@ -180,14 +180,14 @@ After completing these practicals, the following concepts have been implemented:
 
 # 📌 Future Enhancements
 
-The following features will be added in upcoming practicals:
+Planned improvements for upcoming practicals:
 
 - Search GitHub repositories
 - Retry API request
 - Display repository star count
+- Responsive UI enhancements
 - Additional React Hooks
-- Responsive improvements
-- Portfolio enhancements
+- Complete portfolio website
 
 ---
 
@@ -199,13 +199,23 @@ B.Tech Information Technology
 
 CHARUSAT
 
-GitHub: https://github.com/Dodiya-Nandani-D25IT132
+GitHub Profile:
+https://github.com/Dodiya-Nandani-D25IT132
+
+Project Repository:
+https://github.com/Dodiya-Nandani-D25IT132/Portfolio-D25IT132
 
 ---
 
-## ⭐ Repository Status
+# ⭐ Repository Status
 
 - ✅ Practical 1 Completed
 - ✅ Practical 2 Completed
 - ✅ Practical 3 Completed
 - 🚧 More practicals will be added as the course progresses.
+
+---
+
+## 📄 License
+
+This project is developed for educational purposes as part of the **Advanced Web Development Framework (AWDF)** laboratory coursework at **CHARUSAT**.
