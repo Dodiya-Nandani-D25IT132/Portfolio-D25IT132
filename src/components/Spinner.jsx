@@ -1,10 +1,15 @@
 function Spinner() {
-    return (
-        <div className="spinner">
-            <h2>Loading...</h2>
-            <p>Please wait while repositories are loading.</p>
-        </div>
-    );
+  return (
+    <div className="spinner-container">
+
+      <div className="spinner"></div>
+
+      <h3>Loading Repositories...</h3>
+
+      <p>Please wait while we fetch data from GitHub.</p>
+
+    </div>
+  );
 }
 
 export default Spinner;
