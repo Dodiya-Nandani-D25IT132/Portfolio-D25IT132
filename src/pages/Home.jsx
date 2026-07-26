@@ -5,24 +5,30 @@ import Footer from "../components/Footer";
 
 function Home() {
 
-  const skills = [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React"
-  ];
+    const skills = [
+        "HTML5",
+        "CSS3",
+        "JavaScript (ES6+)",
+        "React.js",
+        "React Router",
+        "REST API",
+        "Git & GitHub",
+        "Responsive Web Design"
+    ];
 
-  return (
-    <>
-      <Header name="Nandani Dodiya" />
+    return (
+        <>
 
-      <About />
+            <Header name="Nandani Dodiya" />
 
-      <Skills skillList={skills} />
+            <About />
 
-      <Footer email="nandani@example.com" />
-    </>
-  );
+            <Skills skillList={skills} />
+
+            <Footer email="nandani.dodiya@example.com" />
+
+        </>
+    );
 }
 
 export default Home;

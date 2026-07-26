@@ -1,10 +1,17 @@
-function Footer({ email }) {
+function Footer() {
+
     return (
+
         <footer className="footer">
-            <p>Contact: {email}</p>
-            <p>&copy; 2026 Student Portfolio. All Rights Reserved.</p>
+
+            <p>
+                © 2026 Nandani Dodiya | React Portfolio
+            </p>
+
         </footer>
+
     );
+
 }
 
 export default Footer;

@@ -1,10 +1,17 @@
-function Header({ Nandani }) {
+function Header({ name }) {
+
     return (
+
         <header className="header">
-            <h1>💻 Student Portfolio</h1>
-            <h2>{Nandani}</h2>
+
+            <h1>{name}</h1>
+
+            <p>Student Portfolio using React</p>
+
         </header>
+
     );
+
 }
 
 export default Header;

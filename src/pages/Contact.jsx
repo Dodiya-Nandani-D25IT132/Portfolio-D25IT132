@@ -2,39 +2,35 @@ import { useState } from "react";
 
 function Contact() {
 
-  const [message, setMessage] = useState("");
-  const [showHelp, setShowHelp] = useState(false);
+    const [message, setMessage] = useState("");
 
-  return (
-    <section className="contact">
+    return (
 
-      <h2>Contact Me</h2>
+        <section className="contact">
 
-      <label>Message</label>
+            <h2>Contact Me</h2>
 
-      <br />
+            <label>Enter your message</label>
 
-      <input
-        type="text"
-        placeholder="Enter your message"
-        value={message}
-        onChange={(e) => setMessage(e.target.value)}
-      />
+            <br />
 
-      <p>You typed: {message}</p>
+            <input
+                type="text"
+                placeholder="Type your message..."
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+            />
 
-      <button onClick={() => setShowHelp(!showHelp)}>
-        {showHelp ? "Hide Help" : "Show Help"}
-      </button>
+            <p>
+                You typed: <strong>{message}</strong>
+            </p>
 
-      {
-        showHelp && (
-          <p>Please enter your message in the input box.</p>
-        )
-      }
+            <button>Send Message</button>
 
-    </section>
-  );
+        </section>
+
+    );
+
 }
 
 export default Contact;
