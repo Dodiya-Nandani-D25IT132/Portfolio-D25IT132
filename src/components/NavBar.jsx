@@ -12,6 +12,10 @@ function NavBar() {
                 Projects
             </NavLink>
 
+            <NavLink to="/tasks">
+                Task Manager
+            </NavLink>
+
             <NavLink to="/contact">
                 Contact
             </NavLink>
